@@ -1,0 +1,10 @@
+Step 
+1: Create a folder named cwone in C drive.
+2: Copy Batch and Scripts into cwone folder
+3: Create a subfolder inside cwone and name it output
+after step 3 your directory should look like the following
+	c:\cwone\scripts
+	c:\cwone\output
+	c:\cwone\batch
+4:In windows Task Scheduler assign two Tasks 30 minutes apart with actions launching "master-seq.bat" and "master-seq2.bat"
+These four steps ensures that the data is replicated into Omni S3 bucket.
