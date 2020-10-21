@@ -1,0 +1,28 @@
+SET NOCOUNT ON;
+select
+    RL_PK,
+    REPLACE(replace(replace(RL_PortName,',',''),'"',''),'''','') as RL_PortName,
+    REPLACE(replace(replace(RL_NameWithDiacriticals,',',''),'"',''),'''','') as RL_NameWithDiacriticals,
+    RL_R3,
+    RL_RW,
+    RL_RN_NKCountryCode,
+    RL_HasAirport,
+    RL_HasSeaport,
+    RL_HasRail,
+    RL_HasRoad,
+    RL_HasPost,
+    RL_HasCustomsLodge,
+    RL_HasUnload,
+    RL_HasStore,
+    RL_HasTerminal,
+    RL_HasDischarge,
+    RL_HasOutport,
+    RL_HasBorderCrossing,
+    RL_IsActive,
+    RL_IsSystem,
+    RL_IsUpdatable,
+    RL_Code,
+    RL_IATA,
+    RL_IATARegionCode,
+    RL_GeoLocation
+from  dbo.RefUNLOCO;

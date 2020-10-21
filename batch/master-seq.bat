@@ -1,0 +1,17 @@
+cd "C:\cwone\batch\"
+call AccChargeCode.bat
+call AccTransactionHeader.bat
+call AccTransactionMatchLink.bat
+call GlbBranch.bat
+call GlbStaff.bat
+call JobCharge.bat
+call jobconsol.bat
+call jobdocaddress.bat
+call jobheader.bat
+call jobmawb.bat
+call JobOrderLine.bat
+call JobPackLines.bat
+call JobPickupDeliveryConfirm.bat
+call JobShipment.bat
+call RefCountry.bat
+call stmnote.bat

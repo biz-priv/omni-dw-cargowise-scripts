@@ -1,0 +1,13 @@
+cd "C:\cwone\batch\"
+call JobTransportLegPackLineDivot.bat
+call OrgAddress.bat
+call OrgHeader.bat
+call refunloco.bat
+call AccTransactionLines.bat
+call JobOrderHeader.bat
+call JobOrderItem.bat
+call JobDocsAndCartage.bat
+call ProcessTasks.bat
+call GlbBranch.bat
+call GlbCompany.bat
+call GlbStaff.bat
